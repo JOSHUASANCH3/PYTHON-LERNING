@@ -76,4 +76,4 @@ if(len(first_name) > len(last_name)){ #comparacion de quien tiene mas letras
     print("Sus datos son: ", name, last_name, country, year_old);
 
 #7. Ejecute la ayuda ('palabras clave') en el shell de Python o en su archivo para verificar las palabras reservadas o las palabras clave de Python
-    
+    print("Realizado");
