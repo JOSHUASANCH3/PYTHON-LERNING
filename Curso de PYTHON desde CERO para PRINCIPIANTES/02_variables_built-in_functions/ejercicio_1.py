@@ -14,3 +14,4 @@
 12. Declare una variable is_light_on y asígnele un valor
 13. Declarar múltiples variables en una línea
 """
+print("helloWorld");
