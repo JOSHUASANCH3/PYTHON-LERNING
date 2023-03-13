@@ -202,21 +202,54 @@ else:
 float_len_word1 = float(len_word1);
 str_len_word1 = str(float_len_word1);
 
-# 17. Los números pares son divisibles por 2 y el resto es cero. ¿Cómo verifica si un número es par o no usando python?
+# 17. Los números pares son divisibles por 2 y el resto es cero. 
+# ¿Cómo verifica si un número es par o no usando python?
+# Pedir al usuario que ingrese un número entero
+num = int(input("Ingrese un número entero: "))
+
+# Verificar si el número es par o no
+if num % 2 == 0:
+    print(num, "es un número par.")
+else:
+    print(num, "no es un número par.")
+
+
 # 18. Verifique si la división del piso de 7 por 3 es igual al valor int convertido de 2.7.
+#no es igual, 7 * 3 = 21
+
 # 19. Compruebe si el tipo de '10' es igual al tipo de 10
+print("Compruebe si el tipo de '10' es igual al tipo de 10")
+if(10 is "10"):
+    print("Si")
+else:
+    print("no")
 # 20. Comprueba si int('9.8') es igual a 10
-# 21. Escriba un script que solicite al usuario que ingrese las horas y la tarifa por hora. ¿Calcular el salario de la persona?.
+print("Comprueba si int('9.8') es igual a 10")
+if(9.8 is "10"):
+    print("Si")
+else:
+    print("No")
+
+# 21. Escriba un script que solicite al usuario que ingrese las horas y la tarifa por hora. 
+# ¿Calcular el salario de la persona?.
 """
     Enter hours: 40
     Enter rate per hour: 28
     Your weekly earning is 1120
     """
-# 22. Escriba un script que solicite al usuario que ingrese el número de años. Calcular el número de segundos que puede vivir una persona. Supongamos que una persona puede vivir cien años.
+horas_trabajadas, tarifa_trabajo = 40, 48;
+print("Tus ganancias son: " (horas_trabajadas/tarifa_trabajo)*178)
+
+# 22. Escriba un script que solicite al usuario que ingrese el número de años. 
+# Calcular el número de segundos que puede vivir una persona. Supongamos que una persona puede vivir cien años.
 """
     Enter number of years you have lived: 100
     You have lived for 3153600000 seconds.
     """
+segundos, minutos, hora, dias = 60, 60, 24, 365;
+seg_años = segundos * minutos * hora * dias;
+años = int(input("Ingrese edad: "))
+calcular_seg_vida = años * seg_años;
 
 # 23. Escriba un script de Python que muestre la siguiente tabla.
 """
@@ -226,3 +259,4 @@ str_len_word1 = str(float_len_word1);
     4 1 4 16 64
     5 1 5 25 125
     """
+print("Script para mostrar una tabla")
