@@ -259,4 +259,14 @@ calcular_seg_vida = años * seg_años;
     4 1 4 16 64
     5 1 5 25 125
     """
-print("Script para mostrar una tabla")
+# Definir la función de potencia
+def power(x, n):
+    return x ** n
+
+# Imprimir la tabla
+print("1 1 1 1 1")
+for i in range(2, 6):{
+    print(i, 1, i, power(i, 2), power(i, 3))
+}
+
+#Terminado
