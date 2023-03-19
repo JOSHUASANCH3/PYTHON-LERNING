@@ -34,9 +34,20 @@ print("Remplazar la palabra 'Coding': "+ replace_str)
 #12. Change Python for Everyone to Python for All using the replace method or other methods.
 replace_str = company.replace("Python", "Everyone")
 #13. Split the string 'Coding For All' using space as the separator (split()) .
+split_str_1 = company.split()
+split_str_2 = company.split(", ")
+print("split 1: " + str(split_str_1) + " -split2: " + str(split_str_2))
 #14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+number_14 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+split_number_14 = number_14.split(", ")
+print("Ejercicio 14 : " + str(split_number_14))
 #15. What is the character at index 0 in the string *Coding For All*.
+firt_word = company[0]
+print("Ejercicio 15: "+ firt_word)
 #16. What is the last index of the string *Coding For All*.
+last_index = len(company) -1;
+last_word = company[last_index]
+print("Ejercicio 16: " +last_word)
 #17. What character is at index 10 in "Coding For All" string.
 #18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
 #19. Create an acronym or an abbreviation for the name 'Coding For All'.
