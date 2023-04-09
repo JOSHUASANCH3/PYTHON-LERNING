@@ -27,7 +27,7 @@ print("Ejercicio 5:"+ "\nFirst list: " + str(mixed_data_types) +"\nSecond List:"
 print("Exercise 8: " + str(len(it_companies)))
 #9. Print the first, middle and last company
 first_it_companies = it_companies[0]
-middle_it_companies = it_companies[len(vegetables)//2]
+middle_it_companies = it_companies[len(it_companies)//2]
 last_it_companies = it_companies[-1]
 print("Ejercio 9:" + "\nPrimer objeto: "+ first_it_companies + " \nSegundo Objeto: " + middle_it_companies + " \nTercer Objeto" + last_it_companies)
 #10. Print the list after modifying one of the companies
@@ -37,18 +37,44 @@ print("Ejercicio 10: " + str(it_companies))
 it_companies.append("Facebook")
 print("Ejercicio 11: " + str(it_companies))
 #12. Insert an IT company in the middle of the companies list
-it_companies.insert(middle_it_companies, "Youtube")
+middle_index = int(len(it_companies) / 2)
+it_companies.insert(middle_index, "Youtube")
 print("Ejercicio 12: " + str(it_companies))
 #13. Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies[1] = it_companies[1].upper()
+print("Ejercicio 13: " + str(it_companies))
 #14. Join the it_companies with a string '#; '
+separator = '#; '
+joined_string = separator.join(it_companies)
+print("Ejercicio 14: " + str(joined_string))
 #15. Check if a certain company exists in the it_companies list.
+company_name = 'Microsoft' # company to be checked
+if company_name in it_companies:
+    print(f"{company_name} exists in the it_companies list.")
+else:
+    print(f"{company_name} does not exist in the it_companies list.")
 #16. Sort the list using sort() method
+it_companies.sort()
+print("Ejercicio 16: " + str(it_companies))
 #17. Reverse the list in descending order using reverse() method
+it_companies.reverse()
+print("Ejercicio 17: " + str(it_companies))
 #18. Slice out the first 3 companies from the list
+first_three_companies = it_companies[:3]
+print("Ejercicio 18: " + str(first_three_companies))
 #19. Slice out the last 3 companies from the list
+last_three_companies = it_companies[-3:]
+print("Ejercicio 18: " + str(last_three_companies))
 #20. Slice out the middle IT company or companies from the list
+middle_left_index = len(it_companies) // 2 - 1
+middle_right_index = len(it_companies) // 2
+middle_companies = it_companies[middle_left_index:middle_right_index + 1]
+print("Ejercicio 19: " + str(middle_companies))
 #21. Remove the first IT company from the list
-#22. Remove the middle IT company or companies from the list
+it_companies.remove(it_companies[0])
+print("Ejercicio 19: " + str(middle_companies))
+#22. Remove the middle IT company or companies from the lis 
+
 #23. Remove the last IT company from the list
 #24. Remove all IT companies from the list
 #25. Destroy the IT companies list
