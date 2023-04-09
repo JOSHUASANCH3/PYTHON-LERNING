@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Repositorio de PYTHON Desde Cero hasta Backend</h1>
+  <h1>PYTHON Desde Cero hasta Backend</h1>
   <a class="header-badge" target="_blank" href="https://twitter.com/joshuasanch3">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/JOSHUASANCH3?style=social">
   </a>
@@ -30,7 +30,7 @@
 
 ---
 
-# JOSHUASANCH3/Repositorio de PYTHON Desde Cero hasta Full-BackEnd
+# JOSHUASANCH3/PYTHON Desde Cero hasta Full-BackEnd
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
 |   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES -  InProcess 🟡](./Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[30 lessons -  InProcess 🟡]|   30   |
