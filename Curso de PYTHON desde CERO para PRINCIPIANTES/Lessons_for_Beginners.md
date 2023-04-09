@@ -39,7 +39,7 @@
 |   04   |  [Strings](./04_strings/04_strings.py)|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
 |   05   |  [Lists](./05_list/05_list.py)|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
 |   06   |  [Tuples](./06_tuples/06_tuples.py)|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
-|   07   |  [Sets - Planning 🔵]|
+|   07   |  [Sets - InProcess 🟡](./07_sets/07_sets.py)|Undifined - Paused 🟣|   30   |
 |   08   |  [Dictionaries - Planning 🔵]|
 |   09   |  [Conditionals - Planning 🔵]| 
 |   10   |  [Loops - Planning 🔵]|
