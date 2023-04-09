@@ -73,13 +73,45 @@ print("Ejercicio 19: " + str(middle_companies))
 #21. Remove the first IT company from the list
 it_companies.remove(it_companies[0])
 print("Ejercicio 19: " + str(middle_companies))
-#22. Remove the middle IT company or companies from the lis 
-
+#?22. Remove the middle IT company or companies from the list
+num_companies = len(it_companies)
+if num_companies % 2 == 0:# determinar si el número de elementos en la lista es par o impar
+    # si es par, eliminar las dos empresas del medio
+    middle1 = int(num_companies/2 - 1)
+    middle2 = int(num_companies/2)
+    it_companies.pop(middle1)
+    it_companies.pop(middle2-1)
+else:
+    # si es impar, eliminar la empresa del medio
+    middle = int(num_companies/2)
+    it_companies.pop(middle)
+print("Exercise 22: "+ str(it_companies))
 #23. Remove the last IT company from the list
+it_companies.pop()
+print("Exercise 23: "+ str(it_companies))
 #24. Remove all IT companies from the list
+it_companies =  ['Youtube', 'Oracle', 'Microsoft', 'Instagram', 'IBM', 'GOOGLE', 'Facebook', 'Apple', 'Amazon']
+non_it_companies = ['Youtube', 'Oracle', 'Microsoft', 'Instagram', 'IBM', 'GOOGLE', 'Facebook', 'Apple', 'Amazon']
+for company in it_companies[:]:
+    if company in non_it_companies:
+        it_companies.remove(company)
+print("Exercise 24: "+ str(it_companies))
 #25. Destroy the IT companies list
+del it_companies#Se ha eliminado una lista
+
 #26. Join the following lists:
     #front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     #back_end = ['Node','Express', 'MongoDB']`
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+full_stack = front_end + back_end
+print("Exercise 26: "+ str(full_stack))
 #27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. 
     #Then insert Python and SQL after Redux
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB']
+joined_list = front_end + back_end
+full_stack = joined_list.copy()
+full_stack.insert(full_stack.index('Redux')+1, 'Python')
+full_stack.insert(full_stack.index('Python')+1, 'SQL')
+print("Exercise 27: "+ str(full_stack))
