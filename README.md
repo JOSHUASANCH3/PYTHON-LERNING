@@ -15,14 +15,14 @@
 
 # JOSHUASANCH3/30-Days-Of-Python
 
-|:# Day :|: Topics                                                 :| :Content                                                :|
-|:------:|:---------------------------------------------------------|---------------------------------------------------------:|
-|   01   |  [Introduction - Ready 🟢]|[Theory Ready🟢] [Task #1, Task #2, Task #3 - Ready 🟢]|
-|   02   |  [Variables, Built-in Functions - Ready 🟢][# Day 5]|[Theory - Ready 🟢][Task #1, Task #2 - Ready 🟢]|
-|   03   |  [Operators - Ready 🟢][# Day 10]|[Theory - Ready 🟢][Task #1, Task #2, Task #3 - Ready 🟢]|
-|   04   |  [Strings - Ready 🟢][# Day 12]|[Theory - Ready 🟢][Task #1 - Ready 🟢 - # Day 29]|
-|   05   |  [Lists - Ready 🟢 ][#Day 15]|[Theory - Ready 🟢][Task #1, Task #2 - Planning 🔵]|
-|   06   |  [Tuples - InProcess 🟡][# Day 29]|[Theory - Ready 🟢][Task #1, Task #2 Paused 🟣]|
+|# Day   | Topics                                                   | Content                                                  |# Finish Day |
+|:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
+|   01   |  [Introduction - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
+|   02   |  [Variables, Built-in Functions - Ready 🟢]|[Theory, Task #1, Task #2 - Ready 🟢]||   05   |
+|   03   |  [Operators - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
+|   04   |  [Strings - Ready 🟢]|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
+|   05   |  [Lists - Ready 🟢 ]|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 29   |
+|   06   |  [Tuples - Ready 🟢]|[Theory ,Task #1, Task #2  Ready 🟢]|   29   |
 |   07   |  [Sets - Planning 🔵]|
 |   08   |  [Dictionaries - Planning 🔵]|
 |   09   |  [Conditionals - Planning 🔵]| 

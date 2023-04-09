@@ -1,7 +1,7 @@
 """
 1. The following is a list of 10 students ages:
 
-`ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]`
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]`
 
 - Sort the list and find the min and max age
 - Add the min age and the max age again to the list
