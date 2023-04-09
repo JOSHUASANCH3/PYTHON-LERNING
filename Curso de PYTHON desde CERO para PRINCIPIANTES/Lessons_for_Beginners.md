@@ -33,12 +33,12 @@
 
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   01   |  [Introduction - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
-|   02   |  [Variables, Built-in Functions - Ready 🟢]|[Theory, Task #1, Task #2 - Ready 🟢]||   05   |
-|   03   |  [Operators - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
-|   04   |  [Strings - Ready 🟢]|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
-|   05   |  [Lists - Ready 🟢 ]|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
-|   06   |  [Tuples - Ready 🟢]|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
+|   01   |  [Introduction](./01_Introduccion/01_helloWorld.py)|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
+|   02   |  [Variables, Built-in Functions](./02_variables_built-in_functions/02_variables_and_functions.py)|[Theory, Task #1, Task #2 - Ready 🟢]||   05   |
+|   03   |  [Operators](./03_operadores/03_operadores.py)|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
+|   04   |  [Strings](./04_strings/04_strings.py)|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
+|   05   |  [Lists](./05_list/05_list.py)|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
+|   06   |  [Tuples](./06_tuples/06_tuples.py)|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
 |   07   |  [Sets - Planning 🔵]|
 |   08   |  [Dictionaries - Planning 🔵]|
 |   09   |  [Conditionals - Planning 🔵]| 

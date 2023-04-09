@@ -21,7 +21,7 @@
     - Link: https://youtube.com/playlist?list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_
 
 ---
-
+ 
 # Actividad del curso
 
 |# Actividad | Estado de Actividad                                                           |
