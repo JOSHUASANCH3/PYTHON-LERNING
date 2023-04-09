@@ -6,7 +6,7 @@
 
 <sub>Author:
 <a href="https://twitter.com/joshuasanch3" target="_blank">Joshua Sanchez</a><br>
-<small> Self-Paced Learning : February 5, 2023</small>
+<small> Self-Paced Learning : March 8, 2023</small>
 </sub>
 
 </div>
