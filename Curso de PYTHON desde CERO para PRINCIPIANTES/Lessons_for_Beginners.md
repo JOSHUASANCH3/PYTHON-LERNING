@@ -38,7 +38,7 @@
 |   03   |  [Operators - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
 |   04   |  [Strings - Ready 🟢]|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
 |   05   |  [Lists - Ready 🟢 ]|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
-|   06   |  [Tuples - Ready 🟢]|[Theory ,Task #1, Task #2  InProcess 🟡]|   30   |
+|   06   |  [Tuples - Ready 🟢]|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
 |   07   |  [Sets - Planning 🔵]|
 |   08   |  [Dictionaries - Planning 🔵]|
 |   09   |  [Conditionals - Planning 🔵]| 

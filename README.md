@@ -30,7 +30,7 @@
 
 ---
 
-# JOSHUASANCH3/PYTHON Desde Cero hasta Full-BackEnd
+# <h3>JOSHUASANCH3/PYTHON Desde Cero hasta Full-BackEnd</h3>
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
 |   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES -  InProcess 🟡](./Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[30 lessons -  InProcess 🟡]|   30   |
