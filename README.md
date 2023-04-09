@@ -16,7 +16,7 @@
 # JOSHUASANCH3/30-Days-Of-Python
 
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
-|:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
+|:------:|:---------------------------------------------------------|:----------------------------------------------------------|:-----------:|
 |   01   |  [Introduction - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
 |   02   |  [Variables, Built-in Functions - Ready 🟢]|[Theory, Task #1, Task #2 - Ready 🟢]||   05   |
 |   03   |  [Operators - Ready 🟢]|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
