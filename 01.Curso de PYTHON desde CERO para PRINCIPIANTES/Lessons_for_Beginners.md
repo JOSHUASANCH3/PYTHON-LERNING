@@ -40,7 +40,7 @@
 |   05   |  [Lists](./05_list/05_list.py)|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
 |   06   |  [Tuples](./06_tuples/06_tuples.py)|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
 |   07   |  [Sets](./07_sets/07_sets.py)|Theory ,Task #1, Task #2 - Ready 🟢|   33   |
-|   08   |  [Dictionaries - InProcess 🟡]| Undefined - Paused 🟣 |
+|   08   |  [Dictionaries - InProcess 🟡](./08_dictionary/08_dictionary.py)| Undefined - Paused 🟣 |
 |   09   |  [Conditionals - Planning 🔵]| 
 |   10   |  [Loops - Planning 🔵]|
 |   11   |  [Functions - Planning 🔵]|

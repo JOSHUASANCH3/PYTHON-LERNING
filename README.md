@@ -33,7 +33,7 @@
 # <h3>JOSHUASANCH3/PYTHON Desde Cero hasta Full-BackEnd</h3>
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES](./Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[30 lessons]|  InProcess 🟡   |
-|   00   |  [Curso de PYTHON desde CERO para  INTERMEDIO](./Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/Lessons_for_Intermidate.md)|[Undefined - Planning 🔵]||   Backlog ⚫   |
-|   00   |  [Curso de PYTHON desde CERO para BACKEND](./Curso%20de%20PYTHON%20desde%20CERO%20para%20BACKEND/Lessons_for_BackEnd.md)|[Undefined - Planning 🔵]|   Backlog ⚫   |
+|   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES](./01.Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[30 lessons]|  InProcess 🟡   |
+|   00   |  [Curso de PYTHON desde CERO para  INTERMEDIO](./02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/Lessons_for_Intermidate.md)|[Undefined - Planning 🔵]||   Backlog ⚫   |
+|   00   |  [Curso de PYTHON desde CERO para BACKEND](./03.Curso%20de%20PYTHON%20desde%20CERO%20para%20BACKEND/Lessons_for_BackEnd.md)|[Undefined - Planning 🔵]|   Backlog ⚫   |
 
