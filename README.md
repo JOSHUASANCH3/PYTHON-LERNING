@@ -16,9 +16,9 @@
 # Introduction
 
 - En este repositorio su utilidad radica en los cursos de MoureDev by Brais Moure.
--Ver su lista de reproduccion:
-  - Curso de PYTHON Desde Cero hasta Backend [25 horas | 42 lecciones]
-    - Link: https://youtube.com/playlist?list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_
+- Ver su curso de GitHub:
+  - Curso de PYTHON Desde Cero hasta Backend [ 25 horas | 42 lecciones ]
+    - Link: https://github.com/mouredev/Hello-Python
 
 ---
  
