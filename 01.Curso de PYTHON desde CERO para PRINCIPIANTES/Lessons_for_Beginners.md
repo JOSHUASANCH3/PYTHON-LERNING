@@ -42,7 +42,7 @@
 |   07   |  [Sets](./07_sets/07_sets.py)|Theory ,Task #1, Task #2 - Ready 🟢|   33   |
 |   08   |  [Dictionaries - InProcess 🟡](./08_dictionary/08_dictionary.py)| Theory ,Task #1 - Ready 🟢 | 34 |
 |   09   |  [Conditionals - InProcess 🟡](./09_Conditionals/09_conditionals.py)| TheorY ,Task #1 ,Task #2 ,Task #3 - Planning 🔵 | 35 | 
-|   10   |  [Loops - Planning 🔵]|
+|   10   |  [Loops - Planning 🔵](./10_loops/)|
 |   11   |  [Functions - Planning 🔵]|
 |   12   |  [Modules - Planning 🔵]|
 |   13   |  [List Comprehension - Planning 🔵]|
