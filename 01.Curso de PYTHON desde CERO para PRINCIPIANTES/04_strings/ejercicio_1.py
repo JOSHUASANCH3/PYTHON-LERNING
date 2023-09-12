@@ -118,4 +118,3 @@ libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 separator = ' # '
 result = separator.join(libraries)
 print("Ejecicio 32: " + str(result))
-
