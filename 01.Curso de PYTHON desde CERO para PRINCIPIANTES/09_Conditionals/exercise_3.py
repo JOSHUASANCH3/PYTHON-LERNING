@@ -27,7 +27,7 @@ person = {
     'age': 24,
     'country': 'Nicaragua',
     'is_married': True,
-    'skills': ['Python', 'MySQL', 'Node.js', 'Figma', 'HTML', 'CSS'],
+     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
         'street': 'Space street',
         'zipcode': '02210'
