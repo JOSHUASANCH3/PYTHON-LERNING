@@ -36,13 +36,13 @@
 |   01   |  [Introduction](./01_Introduccion/01_introduccion.md)|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
 |   02   |  [Variables, Built-in Functions](./02_variables_built-in_functions/02_variables_built-in_functions.md)|[Theory, Task #1, Task #2 - Ready 🟢]||   07   |
 |   03   |  [Operators](./03_operadores/03_operadores.md)|[Theory, Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
-|   04   |  [Strings](./04_strings/04_strings.py)|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
-|   05   |  [Lists](./05_list/05_list.py)|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
-|   06   |  [Tuples](./06_tuples/06_tuples.py)|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
-|   07   |  [Sets](./07_sets/07_sets.py)|Theory ,Task #1, Task #2 - Ready 🟢|   33   |
-|   08   |  [Dictionaries - InProcess 🟡](./08_dictionary/08_dictionary.py)| Theory ,Task #1 - Ready 🟢 | 34 |
-|   09   |  [Conditionals - InProcess 🟡](./09_Conditionals/09_conditionals.py)| TheorY ,Task #1 ,Task #2 ,Task #3 - Planning 🔵 | 35 | 
-|   10   |  [Loops - InProcess 🟡](./10_loops/10_loops.md)| 36 |
+|   04   |  [Strings](./04_strings/04_strings.md)|[Theory, Task #1 - Ready 🟢]|   12 - 29   |
+|   05   |  [Lists](./05_list/05_list..md)|[Theory ,Task #1, Task #2 - Ready 🟢]|   15 - 30   |
+|   06   |  [Tuples](./06_tuples/06_tuples.md)|[Theory ,Task #1, Task #2  Ready 🟢]|   30   |
+|   07   |  [Sets](./07_sets/07_sets.md)|Theory ,Task #1, Task #2 - Ready 🟢|   33   |
+|   08   |  [Dictionaries - Ready 🟢](./08_dictionary/08_dictionary.md)| Theory ,Task #1 - Ready 🟢 | 34 |
+|   09   |  [Conditionals - Ready 🟢](./09_Conditionals/09_conditionals.md)| TheorY ,Task #1 ,Task #2 ,Task #3 - Ready 🟢 | 35 | 
+|   10   |  [Loops - InProcess 🟡](./10_loops/10_loops.md)| Theroy - InProcess 🟡  | 36 |
 |   11   |  [Functions - Planning 🔵]|
 |   12   |  [Modules - Planning 🔵]|
 |   13   |  [List Comprehension - Planning 🔵]|
