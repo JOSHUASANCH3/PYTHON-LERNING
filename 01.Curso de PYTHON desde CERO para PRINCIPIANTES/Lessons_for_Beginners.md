@@ -42,7 +42,7 @@
 |   07   |  [Sets](./07_sets/07_sets.md)|Theory ,Task #1, Task #2 - Ready 🟢|   33   |
 |   08   |  [Dictionaries - Ready 🟢](./08_dictionary/08_dictionary.md)| Theory ,Task #1 - Ready 🟢 | 34 |
 |   09   |  [Conditionals - Ready 🟢](./09_Conditionals/09_conditionals.md)| TheorY ,Task #1 ,Task #2 ,Task #3 - Ready 🟢 | 35 | 
-|   10   |  [Loops - Ready 🟢](./10_loops/10_loops.md)| Theroy - Ready 🟢  | 37 |
+|   10   |  [Loops - Ready 🟢](./10_loops/10_loops.md)| Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 | 37 |
 |   11   |  [Functions - Planning 🔵]| 
 |   12   |  [Modules - Planning 🔵]|
 |   13   |  [List Comprehension - Planning 🔵]|
