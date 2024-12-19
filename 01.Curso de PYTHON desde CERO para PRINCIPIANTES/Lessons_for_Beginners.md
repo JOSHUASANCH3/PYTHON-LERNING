@@ -53,7 +53,7 @@
 |   18   |  [Regular Expressions - Planning 🔵]|
 |   19   |  [File Handling - Planning 🔵]|
 |   20   |  [Python Package Manager - Planning 🔵]|
-|   21   |  [Classes and Objects - Planning 🔵]|
+|   21   |  [Classes and Objects - InProcess 🟡](./21_classes_and_objects/21_classes_and_objects.md)| Editar ReadMe - Paused 🟣, Theroy - InProcess 🟡 | 39 |
 |   22   |  [Web Scraping - Planning 🔵]|
 |   23   |  [Virtual Environment - Planning 🔵]|
 |   24   |  [Statistics - Planning 🔵]|
