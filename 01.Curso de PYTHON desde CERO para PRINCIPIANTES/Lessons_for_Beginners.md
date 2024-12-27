@@ -34,7 +34,7 @@
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
 |   01   |  [Introduction - Ready 🟢](./01_Introduccion/01_introduccion.md)|[Task #1, Task #2, Task #3 - Ready 🟢]|   01   |
-|   02   |  [Variables, Built-in Functions](./02_variables_built-in_functions/02_variables_built-in_functions.md)|[Theory, Task #1, Task #2 - Ready 🟢]|  07   |
+|   02   |  [Variables, Built-in Functions - Ready 🟢](./02_variables_built-in_functions/02_variables_built-in_functions.md)|[Theory, Task #1, Task #2 - Ready 🟢]|  07   |
 |   03   |  [Operators - Ready 🟢](./03_operadores/03_operadores.md)|[Task #1, Task #2, Task #3 - Ready 🟢]|   10   |
 |   04   |  [Strings - Ready 🟢](./04_strings/04_strings.md)|[Task #1 - Ready 🟢]|   12 - 29   |
 |   05   |  [Lists - Ready 🟢](./05_list/05_list..md)|[Task #1, Task #2 - Ready 🟢]|   15 - 30   |
