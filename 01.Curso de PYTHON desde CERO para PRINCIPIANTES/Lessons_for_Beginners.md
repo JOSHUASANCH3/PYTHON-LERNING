@@ -42,21 +42,5 @@
 |   37   |  [Loops - Ready 🟢](./10_loops/10_loops.md)|[Editar ReadMe - Paused 🟣, Theroy - Ready 🟢]| 37 |
 |   38   |  [Functions - Ready 🟢](./11_functions/11_funcions.md)|[Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 40 |
 |   41   |  [Modules - Ready 🟢](./12_modules/12_modules.md)| [Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 41 |
-|   13   |  [List Comprehension - Planning 🔵](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/13_list_comprehension/13_list_comprehension.md)|
-|   14   |  [Higher Order Functions - Planning 🔵](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/14_higher_order_functions/14_higher_order_functions.md)|
 |   42   |  [Python Type Errors - Ready 🟢](./15_python_type_errors/15_python_type_errors.md) | [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢 ]| 42 |
-|   16   |  [Python Date time - Planning 🔵](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/16_python_date_time/16_python_date_time.md)|
-|   17   |  [Exception Handling - Planning 🔵]|
-|   18   |  [Regular Expressions - Planning 🔵]|
-|   19   |  [File Handling - Planning 🔵]|  
-|   20   |  [Python Package Manager - Planning 🔵]|
 |   38   |  [Classes and Objects - Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢] | 39 |
-|   22   |  [Web Scraping - Planning 🔵]|
-|   23   |  [Virtual Environment - Planning 🔵]|
-|   24   |  [Statistics - Planning 🔵]|
-|   25   |  [Pandas - Planning 🔵]|
-|   26   |  [Python web - Planning 🔵]|
-|   27   |  [Python with MongoDB - Planning 🔵]|
-|   28   |  [API - Planning 🔵]|
-|   29   |  [Building API - Planning 🔵]|
-|   30   |  [Conclusions - Planning 🔵]|
