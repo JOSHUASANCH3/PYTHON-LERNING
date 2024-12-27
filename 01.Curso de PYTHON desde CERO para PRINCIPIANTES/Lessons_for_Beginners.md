@@ -44,13 +44,13 @@
 |   09   |  [Conditionals - Ready 🟢](./09_Conditionals/09_conditionals.md)|[Task #1 ,Task #2 ,Task #3 - Ready 🟢]| 35 | 
 |   10   |  [Loops - Planning 🔵](./10_loops/10_loops.md)|[Editar ReadMe - Paused 🟣, Theroy - Ready 🟢]| 37 |
 |   11   |  [Functions - Planning 🔵](./11_functions/11_funcions.md)|[Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 38 |
-|   12   |  [Modules - Planning 🔵]|
-|   13   |  [List Comprehension - Planning 🔵]|
-|   14   |  [Higher Order Functions - Planning 🔵]|
+|   12   |  [Modules - Planning 🔵](./12_modules/12_modules.md)| [Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 41 |
+|   13   |  [List Comprehension - Planning 🔵](./13_list_comprehension/13_list_comprehension.md)|
+|   14   |  [Higher Order Functions - Planning 🔵](./14_higher_order_functions/14_higher_order_functions.md)|
 |   15   |  [Python Type Errors - Ready 🟢](./15_python_type_errors/15_python_type_errors.md) | [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢 ]| 40 |
-|   16   |  [Python Date time - Planning 🔵]|
-|   17   |  [Exception Handling - Planning 🔵]|
-|   18   |  [Regular Expressions - Planning 🔵]|
+|   16   |  [Python Date time - Planning 🔵](./16_python_date_time/16_python_date_time.md)|
+|   17   |  [Exception Handling - Planning 🔵](./17_exception_handling/17_exception_handling.md)|
+|   18   |  [Regular Expressions - Planning 🔵](./18_regular_expressions/18_regular_expressions.md )|
 |   19   |  [File Handling - Planning 🔵]|
 |   20   |  [Python Package Manager - Planning 🔵]|
 |   21   |  [Classes and Objects - Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢] | 39 |
