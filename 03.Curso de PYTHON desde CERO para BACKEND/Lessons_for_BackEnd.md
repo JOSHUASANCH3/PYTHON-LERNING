@@ -5,7 +5,7 @@
   </a>
 
 <sub>Author:
-<a href="https://twitter.com/joshuasanch3" target="_blank">Joshua Sanchez</a><br>
+<a href="https://twitter.com/joshuasanch3" target="_blank">@JOSHUASANCH3</a><br>
 <small> Self-Paced Learning : March 8, 2023</small>
 </sub>
 
@@ -15,7 +15,8 @@
 
 # Introduction
 
-- Aun esta en desarrollo este README.md cuanto se termine el curso de principiantes se comenzara a dar desarrollo a este curso
+- Esta en pausa
+- [Curso de PYTHON desde CERO para BACKEND [ 8 horas | 18 lecciones]](https://www.youtube.com/watch?v=_y9qQZXE24A)
 
 # Actividad del curso
 
@@ -28,6 +29,11 @@
 # JOSHUASANCH3/Repositorio de PYTHON Desde Cero hasta Full-BackEnd
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES -  InProcess 🟡](./Lessons_for_Beginners.md)|[30 lessons -  InProcess 🟡]|   30   |
-|   00   |  [Curso de PYTHON desde CERO para  INTERMEDIO - Planning 🔵](./Lessons_for_Intermidate.md)|[Undefined - Planning 🔵]||   00   |
-|   00   |  [Curso de PYTHON desde CERO para BACKEND - Planning 🔵](./Lessons_for_BackEnd.md)|[Undefined - Planning 🔵]|   00   |
+|   00   |  [Web Scraping - Planning 🔵]|
+|   00   |  [Virtual Environment - Planning 🔵]|
+|   00   |  [Statistics - Planning 🔵]|
+|   00   |  [Pandas - Planning 🔵]|
+|   00   |  [Python web - Planning 🔵]|
+|   00   |  [Python with MongoDB - Planning 🔵]|
+|   00   |  [API - Planning 🔵]|
+|   00   |  [Building API - Planning 🔵]|
