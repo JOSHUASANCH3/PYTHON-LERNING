@@ -30,11 +30,11 @@
 
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   00   |  [List Comprehension - Planning 🔵](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/13_list_comprehension/13_list_comprehension.md)|
-|   00   |  [Higher Order Functions - Planning 🔵](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/14_higher_order_functions/14_higher_order_functions.md)|
-|   43   |  [Python Date time - InProcess 🟡](../02.Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/16_python_date_time/16_python_date_time.md)| 44 |
-|   00   |  [Exception Handling - Planning 🔵]|
-|   00   |  [Regular Expressions - Planning 🔵]|
-|   00   |  [File Handling - Planning 🔵]|  
-|   00   |  [Python Package Manager - Planning 🔵]|
-|   00   |  [Conclusions - Planning 🔵]|
+|   00   |  [List Comprehension - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   00   |  [Higher Order Functions - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 44 |
+|   00   |  [Exception Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   00   |  [Regular Expressions - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   00   |  [File Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   00   |  [Python Package Manager - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   00   |  [Conclusions - Planning 🔵]| [Theory ]| Planning 🔵 |
