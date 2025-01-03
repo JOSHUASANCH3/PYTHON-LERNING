@@ -32,7 +32,7 @@
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
 |   00   |  [List Comprehension - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [Higher Order Functions - Planning 🔵]| [Theory ]| Planning 🔵 |
-|   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 44 |
+|   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 45 |
 |   00   |  [Exception Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [Regular Expressions - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [File Handling - Planning 🔵]| [Theory ]| Planning 🔵 |

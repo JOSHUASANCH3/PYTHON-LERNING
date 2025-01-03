@@ -22,7 +22,7 @@ print(timestamp)
 # ? Se crea una funcion print_date
 def print_date(date):
     print(date.year)
-    print(date.mount)
+    print(date.month)
     print(date.day)
     print(date.hour)
     print(date.minute)
@@ -61,3 +61,38 @@ current_time = time(10, 51, 20)
 print(current_time.hour)  ## El valor es 10
 print(current_time.min)  ## El valor es 51
 print(current_time.second)  ## El valor es 20
+
+from date import datetime  # #Se importa de la libreria date
+
+current_date = date.today()
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
+current_date = date(2025, 1, 1)
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
+current_date = date(current_date.year, current_date.month + 1, current_date.day)
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
+diff_datetime = year_2025 - now
+print(diff_datetime)
+
+diff_datetime = year_2025.date() - current_date
+print(diff_datetime)
+
+from datetime import (
+    timedelta,  # # Se utiliza para saber el rango de tiempo que va durar un evento
+)
+
+init_timedelta = timedelta(200, 100, 100, weeks=10)
+end_timedelta = timedelta(300, 100, 100, weeks=13)
+print(end_timedelta - init_timedelta)
+print(end_timedelta + init_timedelta)
