@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> #30 Days Of Python</h1>
+  <h1> #30$$ Dias de Python INTERMEDIO</h1>
   <a class="header-badge" target="_blank" href="https://twitter.com/joshuasanch3">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/JOSHUASANCH3?style=social">
   </a>
