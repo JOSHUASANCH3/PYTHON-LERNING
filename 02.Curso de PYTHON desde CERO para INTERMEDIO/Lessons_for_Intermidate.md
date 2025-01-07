@@ -30,7 +30,7 @@
 
 |# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   00   |  [List Comprehension - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   46   |  [List Comprehension - Planning 🔵](./13_list_comprehension/13_list_comprehension.md)| [Theory - Ready 🟢]| 47 |
 |   00   |  [Higher Order Functions - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 45 |
 |   00   |  [Exception Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
