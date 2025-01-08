@@ -44,4 +44,4 @@
 |   41   |  [Modules - Ready 🟢](./12_modules/12_modules.md)| [Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 41 |
 |   42   |  [Python Type Errors - Ready 🟢](./15_python_type_errors/15_python_type_errors.md) | [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢 ]| 42 |
 |   38   |  [Classes and Objects - Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢] | 39 |
-|   38   |  [Challanges For Beginners -Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣] | InProcess 🟡 |
+|   48   |  [Challanges For Beginners #1 -Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣] |  49  |
