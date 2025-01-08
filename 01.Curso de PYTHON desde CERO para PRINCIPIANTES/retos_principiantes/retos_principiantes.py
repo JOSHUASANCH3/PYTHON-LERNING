@@ -42,3 +42,47 @@ def is_anagram(word_one, word_two):
 
 
 print(is_anagram("Amor", "Roma"))
+
+
+"""
+#3 LA SUCESION DE FIBONACCI
+ * Escribe un programa que imprima los 50 primeros números de la sucesión
+ * de Fibonacci empezando en 0.
+ * - La serie Fibonacci se compone por una sucesión de números en
+ *   la que el siguiente siempre es la suma de los dos anteriores.
+ *   0, 1, 1, 2, 3, 5, 8, 13...
+"""
+
+
+def fibonacci():
+    prev_num = 0
+    next_num = 1
+    for index in range(0, 50):
+        print(prev_num)
+        fib = prev_num + next_num
+        prev_num = next_num
+        next_num = fib
+
+
+fibonacci()
+
+"""
+#4 ¿ES UN NUMERO PRIMO?
+ * Escribe un programa que se encargue de comprobar si un número es o no primo.
+ * Hecho esto, imprime los números primos entre 1 y 100.
+"""
+
+
+def is_prime():
+    for number in range(1, 101):
+        if number >= 2:
+            is_divisible = False
+            for index in range(2, number):
+                if number % index == 0:
+                    is_divisible = True
+                    break
+            if not is_divisible:
+                print(number)
+
+
+is_prime()
