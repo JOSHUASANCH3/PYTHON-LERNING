@@ -33,6 +33,7 @@
 |   46   |  [List Comprehension - Planning 🔵](./13_list_comprehension/13_list_comprehension.md)| [Theory - Ready 🟢]| 47 |
 |   00   |  [Higher Order Functions - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 45 |
+|   46   |  [Lambda - Ready 🟢](./30_Lambdas/30_Lambdas.md)| [Theory - Ready 🟢 ]| 48 |
 |   00   |  [Exception Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [Regular Expressions - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [File Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
