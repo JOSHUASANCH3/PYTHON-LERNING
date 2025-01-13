@@ -33,9 +33,9 @@
 |   46   |  [List Comprehension - Ready 🟢](./13_list_comprehension/13_list_comprehension.md)| [Theory - Ready 🟢]| 47 |
 |   49   |  [Higher Order Functions - Ready 🟢](./14_higher_order_functions/14_higher_order_functions.md)| [Theory ]| 50 |
 |   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 45 |
-|   46   |  [Lambda - Ready 🟢](./30_Lambdas/30_Lambdas.md)| [Theory - Ready 🟢]| 48 |
-|   50   |  [Error Type - Ready 🟢]| [Theory - Ready 🟢]| 51 |
+|   46   |  [Lambda - Ready 🟢](./15Lambdas/30_Lambdas.md)| [Theory - Ready 🟢]| 48 |
+|   50   |  [Error Type - Ready 🟢](./17_error_type/17_error_type.md)| [Theory - Ready 🟢]| 51 |
 |   00   |  [Regular Expressions - Planning 🔵]| [Theory ]| Planning 🔵 |
-|   00   |  [File Handling - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   51   |  [File Handling - InProcess 🟡]| [Theory ]| - InProcess 🟡 |
 |   00   |  [Python Package Manager - Planning 🔵]| [Theory ]| Planning 🔵 |
 |   00   |  [Conclusions - Planning 🔵]| [Theory ]| Planning 🔵 |
