@@ -1,0 +1,12 @@
+{
+  "name": "Joshua",
+  "surname": "Sanchez",
+  "age": 35,
+  "languages": [
+    "Python",
+    "CSS",
+    "HTML",
+    "MongoBD"
+  ],
+  "phrase": "Hello World"
+}

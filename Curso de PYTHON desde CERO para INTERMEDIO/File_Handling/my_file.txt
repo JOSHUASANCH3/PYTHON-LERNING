@@ -1,6 +1,5 @@
 Mi nombre es Joshua
 Mi apellido es Sanchez
-Mi edad es 25 aÃ±os
+Mi edad es 25 años
 Mi ciudad natal es Managua
 Mi lengua de programacion preferido es Python
-Tambien me gusta HTML
