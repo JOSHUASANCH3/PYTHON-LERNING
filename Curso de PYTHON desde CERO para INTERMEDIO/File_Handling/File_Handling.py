@@ -77,6 +77,7 @@ else:
 
 
 ## Pasar un JSON a un diccionario
+## Se puede usar el JSON como un diccionario para obtener sus datos de manera mas eficienciente
 json_dict = json.load(open(file_path_json))
 print(json_dict)
 print(type(json_dict))
