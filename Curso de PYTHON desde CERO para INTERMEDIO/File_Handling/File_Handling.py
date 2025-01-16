@@ -82,3 +82,19 @@ json_dict = json.load(open(file_path_json))
 print(json_dict)
 print(type(json_dict))
 print(json_dict["name"])
+
+## import xlrd  ## Debe instalarse el modulo
+
+## import .csv file
+import csv
+
+file_path_csv = "Curso de PYTHON desde CERO para INTERMEDIO/File_Handling/my_file.csv"
+csv_file = open(file_path_csv, "w+")
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(["name", "surname", "age", "language", "pharse"])
+csv_writer.writerow(["Joshua", "Sanchez", 35, "Python", "Hello world"])
+csv_file.close()
+
+with open(file_path_csv) as my_other_file:
+    for line in my_other_file.readlines():
+        print(line)
