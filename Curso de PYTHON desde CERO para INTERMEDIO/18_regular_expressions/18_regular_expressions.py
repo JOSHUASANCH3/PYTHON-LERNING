@@ -22,7 +22,7 @@ re.sub: Replaces one or many matches within a string
 # *     \D means: match where the string does not contain digits
 # *      any character except new line character(\n)
 
-#! ^: starts with
+#! PARAMETROS ^: starts with
 # * r'^substring' eg r'^love', a sentence that starts with a word love
 # * r'[^abc] means not a, not b, not c.
 
@@ -88,8 +88,17 @@ I fo%und te%a%ching m%ore i%n%t%er%%es%ting t%h%an any other %jobs.
 D%o%es thi%s m%ot%iv%a%te %y%o%u to b%e a t%e%a%cher?"""
 
 matches = re.sub("%", "", txt)
-print(matches)
+print(matches + "\n")
 # I am teacher and  I love teaching.
 # There is nothing as rewarding as educating and empowering people.
 # I found teaching more interesting than any other jobs.
 # Does this motivate you to be a teacher?
+
+#! Patters
+pattern = r"[Ll]eccion"
+print(re.findall(pattern, my_string), "\n")
+# ['leccion', 'Leccion']
+
+pattern = r"[Ll]eccion|Expresiones"
+print(re.findall(pattern, my_string), "\n")
+# ['leccion', 'Leccion', 'Expresiones']
