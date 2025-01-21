@@ -9,22 +9,6 @@ re.findall: Returns a list containing all matches
 re.split: Takes a string, splits it at the match points, returns a list
 re.sub: Replaces one or many matches within a string
 """
-#! PARAMETROS []: A set of characters
-# *      [a-c] means, a or b or c
-# *      [a-z] means, any letter from a to z
-# *      [A-Z] means, any character from A to Z
-# *      [0-3] means, 0 or 1 or 2 or 3
-# *      [0-9] means any number from 0 to 9
-# *      [A-Za-z0-9] any single character, that is a to z, A to Z or 0 to 9
-
-#! PARAMETROS \: uses to escape special characters
-# *     \d means: match where the string contains digits (numbers from 0-9)
-# *     \D means: match where the string does not contain digits
-# *      any character except new line character(\n)
-
-#! PARAMETROS ^: starts with
-# * r'^substring' eg r'^love', a sentence that starts with a word love
-# * r'[^abc] means not a, not b, not c.
 
 import re
 
@@ -94,11 +78,74 @@ print(matches + "\n")
 # I found teaching more interesting than any other jobs.
 # Does this motivate you to be a teacher?
 
+#! PATTERS []: A set of characters
+# *      [a-c] means, a or b or c
+# *      [a-z] means, any letter from a to z
+# *      [A-Z] means, any character from A to Z
+# *      [0-3] means, 0 or 1 or 2 or 3
+# *      [0-9] means any number from 0 to 9
+# *      [A-Za-z0-9] any single character, that is a to z, A to Z or 0 to 9
+
+#! PATTERS \: uses to escape special characters
+# *      \d means: match where the string contains digits (numbers from 0-9)
+# *      \D means: match where the string does not contain digits
+# *      any character except new line character(\n)
+
+#! PATTERS ^: starts with
+# *      r'^substring' eg r'^love', a sentence that starts with a word love
+# *      r'[^abc] means not a, not b, not c.
+
+#! PATTERS $: ends with
+# *      r'substring$' eg r'love$', sentence that ends with a word love
+
+#! PATTERS *: zero or more times
+# *      r'[a]*' means a optional or it can occur many times.
+
+#! PATTERS +: one or more times
+# *      r'[a]+' means at least once (or more)
+
+#! PATTERS ?: zero or one time
+# *      r'[a]?' means zero times or once
+
+# * PATTERS {3}: Exactly 3 characters
+
+# * PATTERS {3,}: At least 3 characters
+
+# * PATTERS {3,8}: 3 to 8 characters
+
+#! PATTERS |: Either or
+# *      r'apple|banana' means either apple or a banana
+
+#! PATTERS (): Capture and group
+
 #! Patters
 pattern = r"[Ll]eccion"
-print(re.findall(pattern, my_string), "\n")
+print(re.findall(pattern, my_string))
 # ['leccion', 'Leccion']
+print(re.search(pattern, my_string), "\n")
+# <re.Match object; span=(11, 18), match='leccion'>
 
 pattern = r"[Ll]eccion|Expresiones"
-print(re.findall(pattern, my_string), "\n")
+print(re.findall(pattern, my_string))
 # ['leccion', 'Leccion', 'Expresiones']
+print(re.search(pattern, my_string), "\n")
+# <re.Match object; span=(11, 18), match='leccion'>
+
+pattern = r"[0-9]"
+print(re.findall(pattern, my_string))
+# ['7']
+print(re.search(pattern, my_string), "\n")
+# <re.Match object; span=(26, 27), match='7'>
+
+email = "jokayou3@gmail.com"
+pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+print(re.match(pattern, email))
+# <re.Match object; span=(0, 18), match='jokayou3@gmail.com'>
+print(re.findall(pattern, email))
+# ['jokayou3@gmail.com']
+print(re.search(pattern, email), "\n")
+# <re.Match object; span=(0, 18), match='jokayou3@gmail.com'>
+
+email = "jokayou3@gmail"
+print(re.findall(pattern, email))
+# [] : Esto no es un email
