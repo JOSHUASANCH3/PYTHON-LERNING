@@ -35,7 +35,7 @@
 |   43   |  [Python Date time - Ready 🟢](./16_python_date_time/16_python_date_time.md) | [Theory, Task #1, Task #2 - Ready 🟢]| 45 |
 |   46   |  [Lambda - Ready 🟢](./15Lambdas/30_Lambdas.md)| [Theory - Ready 🟢]| 48 |
 |   50   |  [Error Type - Ready 🟢](./17_error_type/17_error_type.md)| [Theory - Ready 🟢]| 51 |
-|   52   |  [Regular Expressions - InProcess 🟡]| [Theory ]| InProcess 🟡 |
+|   52   |  [Regular Expressions - Ready 🟢](./18_regular_expressions/18_regular_expressions.md)| [Theory - Ready 🟢]| 53 |
 |   51   |  [File Handling - Ready 🟢](./File_Handling/20_File_Handling.md)| [Theory - Ready 🟢]| 52 |
-|   00   |  [Python Package Manager - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   54   |  [Python Package Manager - Ready 🟢](./python_package_manager/python_package_manager.py)| [Theory- Ready 🟢]| 55 |
 |   00   |  [Conclusions - Planning 🔵]| [Theory ]| Planning 🔵 |
