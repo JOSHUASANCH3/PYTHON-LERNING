@@ -21,10 +21,10 @@
   - [Curso de PYTHON desde CERO para PRINCIPIANTES [ 10 horas | 15 lecciones ]](https://www.youtube.com/watch?v=Kp4Mvapo5kc&t=32228s)
   - [Curso de PYTHON desde CERO para PRINCIPIANTES [Intermedio] [ 7 horas | 9 lecciones]](https://www.youtube.com/watch?v=TbcEqkabAWU) 
   - [Curso de PYTHON desde CERO para BACKEND [ 8 horas | 18 lecciones]](https://www.youtube.com/watch?v=_y9qQZXE24A)
-    - Link: https://github.com/mouredev/Hello-Python
+    - Link: <https://github.com/mouredev/Hello-Python>
 
 ---
- 
+
 # Actividad del curso
 
 |# Actividad | Estado de Actividad                                                           |
@@ -34,8 +34,8 @@
 ---
 
 # <h3>JOSHUASANCH3/PYTHON desde CERO hasta FuLL BACKEND </h3>
-|# Curso   | Temas a aprender                                                   | Actividad                                                  |# Finish Day |
+|# Day   | Topics                                                   | Content                                                  |# Finish Day |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
 |   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES](./Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[14 lessons - Ready 🟢]|  41  |
-|   42   |  [Curso de PYTHON desde CERO para  INTERMEDIO](./Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/Lessons_for_Intermidate.md)|[ 9 lessons]|   InProcess 🟡   |
+|   42   |  [Curso de PYTHON desde CERO para  INTERMEDIO](./Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/Lessons_for_Intermidate.md)|[ 9 lessons - Ready 🟢]|   55   |
 |   00   |  [Curso de PYTHON desde CERO para BACKEND](./Curso%20de%20PYTHON%20desde%20CERO%20para%20BACKEND/Lessons_for_BackEnd.md)|[Undefined - 10 lecciones - Planning 🔵]|   Backlog ⚫   |

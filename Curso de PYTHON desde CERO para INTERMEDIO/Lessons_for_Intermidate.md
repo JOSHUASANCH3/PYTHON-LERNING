@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> #30 Dias de Python INTERMEDIO</h1>
+  <h1> #30 Dias de PYTHON desde Principiante a INTERMEDIO</h1>
   <a class="header-badge" target="_blank" href="https://twitter.com/joshuasanch3">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/JOSHUASANCH3?style=social">
   </a>
@@ -38,4 +38,5 @@
 |   52   |  [Regular Expressions - Ready 🟢](./18_regular_expressions/18_regular_expressions.md)| [Theory - Ready 🟢]| 53 |
 |   51   |  [File Handling - Ready 🟢](./File_Handling/20_File_Handling.md)| [Theory - Ready 🟢]| 52 |
 |   54   |  [Python Package Manager - Ready 🟢](./python_package_manager/python_package_manager.py)| [Theory- Ready 🟢]| 55 |
-|   00   |  [Conclusions - Planning 🔵]| [Theory ]| Planning 🔵 |
+|   56   |  [Intermedie Exercise #1 - Ready 🟢](./retos_intermedio/retos_intermedio1.py)| [ Ready 🟢]| 56 |
+|   00   |  [Intermedie Exercise #2 - InProcess 🟡](./retos_intermedio/retos_intermedio2.py)| [ InProcess 🟡]| 00 |

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> #30 Days Of Python</h1>
+  <h1> #30 Dias de PYTHON desde CERO para PRINCIPIANTES</h1>
   <a class="header-badge" target="_blank" href="https://twitter.com/joshuasanch3">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/JOSHUASANCH3?style=social">
   </a>
@@ -44,4 +44,5 @@
 |   41   |  [Modules - Ready 🟢](./12_modules/12_modules.md)| [Editar ReadMe - Paused 🟣, Theroy - Ready 🟢 ]| 41 |
 |   42   |  [Python Type Errors - Ready 🟢](./15_python_type_errors/15_python_type_errors.md) | [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢 ]| 42 |
 |   38   |  [Classes and Objects - Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣, Task#1 - Ready 🟢] | 39 |
-|   48   |  [Challanges For Beginners #1 -Ready 🟢](./21_classes&&objects/21_classes&&objects.md)| [Editar ReadMe - Paused 🟣] |  49  |
+|   48   |  [Retos Principiantes #1](./22_retos_principiantes/retos_principiantes1.py)| [ Ready 🟢] |  49  |
+|   56   |  [Retos Principiantes #2](./22_retos_principiantes/retos_principiantes2.py)| [ Ready 🟢] |  00  |
