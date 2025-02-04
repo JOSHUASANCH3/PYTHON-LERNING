@@ -13,7 +13,7 @@ Reglas de nombres de variables de Python
 first_name = 'Asabeneh'
 last_name = 'Yetayeh'
 country = 'Finland'
-ccity = 'Helsinki'
+city = 'Helsinki'
 age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']

@@ -1,105 +1,42 @@
 """
-#1 EL FAMOSO "FIZZ BUZZ"
- * Escribe un programa que muestre por consola (con un print) los números de 1 a 100 (ambos incluidos y con un salto de línea entre
- * cada impresión), sustituyendo los siguientes:
-    #? - Múltiplos de 3 por la palabra "fizz".
-    #? - Múltiplos de 5 por la palabra "buzz".
-    #? - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+# ? ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
+ * - Recuerda que todas las instrucciones de participación están en el
+ *   repositorio de GitHub.
+ *
+ * Lo primero... ¿Ya has elegido un lenguaje?
+ * - No todos son iguales, pero sus fundamentos suelen ser comunes.
+ * - Este primer reto te servirá para familiarizarte con la forma de participar
+ *   enviando tus propias soluciones.
 """
+# ! EJERCICIO:
+# ? - Crea un comentario en el código y coloca la URL del sitio web oficial del lenguaje de programación que has seleccionado.
+#  URL: https://www.python.org/
+# ? - Representa las diferentes sintaxis que existen de crear comentarios en el lenguaje (en una línea, varias...).
+# Comentario de una línea
 
+# ? - Crea una variable (y una constante si el lenguaje lo soporta).
+var_num1 = None
+PI = 3.1416
+# ? - Crea variables representando todos los tipos de datos primitivos del lenguaje (cadenas de texto, enteros, booleanos...).
+#Tipos de datos
+print(2 + 3)             # addition(+)
+print(3 - 1)             # subtraction(-)
+print(2 * 3)             # multiplication(*)
+print(3 / 2)             # division(/)
+print(3 ** 2)            # exponential(**)
+print(3 % 2)             # modulus(%)
+print(3 // 2)            # Floor division operator(//)
 
-def fizzbuzz():
-    for index in range(1, 101):
-        if index % 3 and index % 5 == 0:
-            ##Para saber si un numero es multiplo de 3 y 5, es que su modulo es 0
-            print("fizzbuzz")
-        elif index % 3 == 0:
-            print("fizz")
-        elif index % 5 == 0:
-            print("buzz")
-        else:
-            print(index)
+# Comprobando los tipos de datos
+print(type(10))          # Int
+print(type(3.14))        # Float
+print(type(1 + 3j))      # Complex number
+print(type('Joshua'))  # String
+print(type([1, 2, 3]))   # List
+print(type({'name':'Joshua'})) # Dictionary
+print(type({9.8, 3.14, 2.7}))    # Set
+print(type((9.8, 3.14, 2.7)))    # Tuples
+print("Hola Python")##Se agrega una nueva linea
 
-
-fizzbuzz()
-
-"""
-#2 ¿ES UN ANAGRAMA?
- * Escribe una función que reciba dos palabras (String) y retorne verdadero o falso (Bool) según sean o no anagramas.
-    #? - Un Anagrama consiste en formar una palabra reordenando TODAS
-    #? - las letras de otra palabra inicial.
-    #? - NO hace falta comprobar que ambas palabras existan.
-    #? - Dos palabras exactamente iguales no son anagrama.
-"""
-
-
-def is_anagram(word_one, word_two):
-    ##Aqui verifica si es la misma la palabra
-    if word_one.lower() == word_two.lower():
-        return False
-    ##Aqui ordena y crea una lista de caracteres y verifica si todas son las mismas
-    return sorted(word_one.lower()) == sorted(word_two.lower())
-
-
-print(is_anagram("Amor", "Roma"))
-
-
-"""
-#3 LA SUCESION DE FIBONACCI
- * Escribe un programa que imprima los 50 primeros números de la sucesión
- * de Fibonacci empezando en 0.
- * - La serie Fibonacci se compone por una sucesión de números en
- *   la que el siguiente siempre es la suma de los dos anteriores.
- *   0, 1, 1, 2, 3, 5, 8, 13...
-"""
-
-
-def fibonacci():
-    prev_num = 0
-    next_num = 1
-    for index in range(0, 50):
-        print(prev_num)
-        fib = prev_num + next_num
-        prev_num = next_num
-        next_num = fib
-
-
-fibonacci()
-
-"""
-#4 ¿ES UN NUMERO PRIMO?
- * Escribe un programa que se encargue de comprobar si un número es o no primo.
- * Hecho esto, imprime los números primos entre 1 y 100.
-"""
-
-
-def is_prime():
-    for number in range(1, 101):
-        if number >= 2:
-            is_divisible = False
-            for index in range(2, number):
-                if number % index == 0:
-                    is_divisible = True
-                    break
-            if not is_divisible:
-                print(number)
-
-
-is_prime()
-
-"""
-#7 INVIERTIENDO CADENAS
- * Crea un programa que invierta el orden de una cadena de texto sin usar funciones propias del lenguaje que lo hagan de forma automática.
- * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
-"""
-
-
-def reverse(text):
-    text_len = len(text)
-    reverse_text = ""
-    for index in range(0, text_len):
-        reverse_text += text[text_len - index - 1]
-    return reverse_text
-
-
-print(reverse("Hola Mundo"))
+# ? - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+print("¡Hola, [y el nombre de tu lenguaje]!")

@@ -24,7 +24,7 @@ if my_age = your_age. Output:
 Enter your age: 30
 You are 5 years older than me.
 """
-my_age,your_age = null;
+my_age,your_age = null
 my_age = input("Enter my year born:");
 your_age = input("Enter your year born:");
 if(my_age == your_age):

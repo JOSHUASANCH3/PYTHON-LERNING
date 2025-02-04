@@ -57,6 +57,4 @@ if "skills" in person:
 
 # Task 4: Print information if married and lives in Finland
 if person["is_married"] and person["country"] == "Finland":
-    print(
-        f"{person['first_name']} {person['last_name']} is married and lives in Finland."
-    )
+    print(f"{person['first_name']} {person['last_name']} is married and lives in Finland.")

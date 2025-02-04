@@ -10,15 +10,15 @@
 """
 scores_students = input("Ingresive your score");
 if(scores_students >= 90 && scores_students =< 100):
-    print('Your score is "A"');
+    print('Your score is "A"')
 elif(scores_students >= 70 && scores_students =< 89):
-    print('Your score is "B"');
+    print('Your score is "B"')
 elif(scores_students >= 60 && scores_students =< 69):
-    print('Your score is "C"');
+    print('Your score is "C"')
 elif(scores_students >= 50 && scores_students =< 59):
-    print('Your score is "D"');
+    print('Your score is "D"')
 elif(scores_students >= 0 && scores_students =< 49):
-    print('Your score is "F"');
+    print('Your score is "F"')
 
 """
 #? 2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is: 
