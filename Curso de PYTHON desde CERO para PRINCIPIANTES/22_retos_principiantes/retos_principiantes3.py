@@ -1,79 +1,3 @@
-###     EJERCICIO:
-# * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto en PYTHON
-#? Estructuras soportadas en python
-#Listas (Lists), Tuplas (Tuples), Conjuntos (Sets), Diccinario (Dictionaries)
-
-#! Lists
-my_list = [1, 2, 3, 4]
-
-#Insercion de datos
-my_list.append(5) # Añade al final de la lista el numero 5
-#[1, 2, 3, 4, 5]
-my_list.insert(2, 10) # Añade el numero 10 en la posicion numero 2
-#[1, 2, 10, 3, 4, 5]
-
-#Borrar datos
-my_list.remove(3) #Elimina el primer elemennto con el valor 3
-#[1, 2, 10, 4, 5]
-del my_list[0] #Elimina el elemento en la posicion 0
-#[2, 10, 4, 5]
-
-
-#Actualizacion
-my_list[1] = 20 #Cambia el valor en la posicion 1 a 20
-#[2, 20, 4, 5]
-
-#Ordenacion
-my_list.sort() #Ordena la lista de forma ascendente
-#[2, 20, 4, 5]
-my_list.sort(reverse=True) #Ordena la lista de forma descendente
-print("Lista final", my_list)
-#Lista final [20, 5, 4, 2]
-
-#! Tuples
-#? Las tuplas son colecciones ordenadas e inmutables (no pueden modificarse después de su creación).
-my_tupla = [1, 2, 3, 4]
-
-# Las tuplas no permiten inserción, borrado o actualización directamente
-# Pero puedes convertirla a lista, modificarla y volver a tupla
-lista_temp = list(my_tupla)
-lista_temp.append(5)  # Añade un elemento
-my_tupla = tuple(lista_temp)  # Convierte de nuevo a tupla
-
-# Ordenación (necesitas convertir a lista)
-lista_temp = list(my_tupla)
-lista_temp.sort()
-my_tuplaa = tuple(lista_temp)
-
-print("Tupla final:", my_tupla)
-
-#! Dictionaries
-# Creación de un diccionario
-my_dictionary = {
-    "Nombre":"Joshua", 
-    "Apellido":"Sanchez", 
-    "Edad":25
-    }
-
-# Inserción
-my_dictionary["Profesion"] = "Programador"  # Añade una nueva clave-valor
-my_dictionary["Lenguaje_Favorito"] = "Python"
-my_dictionary["Ciudad"] = "Managua"
-
-# Borrado
-del my_dictionary["Edad"]  # Elimina la clave "edad"
-my_dictionary.pop("Ciudad", None)  # Elimina la clave "ciudad" si existe
-
-# Actualización
-my_dictionary["Nombre"] = "German"  # Cambia el valor de la clave "nombre"
-my_dictionary["Apellido"] = "Garay"
-
-# Ordenación (puedes ordenar por claves o valores)
-diccionario_ordenado = dict(sorted(my_dictionary.items()))  # Ordena por claves
-
-print("Diccionario final:", my_dictionary)
-print("Diccionario ordenado por claves:", diccionario_ordenado)
-
 # * DIFICULTAD EXTRA (opcional):
 # * Crea una agenda de contactos por terminal.
 # * - Debes implementar funcionalidades de búsqueda, inserción, actualización
@@ -85,7 +9,7 @@ print("Diccionario ordenado por claves:", diccionario_ordenado)
 # *   de 11 dígitos (o el número de dígitos que quieras).
 # * - También se debe proponer una operación de finalización del programa.
 
-#! PUNTOS EXTRAS
+#! PUNTOS EXTRAS ESTA PARTE SE AÑADE A CURSO INTEMEDIO
 #?Retos adicionales (opcionales):
 #*Persistencia de datos:
 #Guarda la agenda en un archivo (por ejemplo, agenda.txt) para que los contactos no se pierdan al cerrar el programa.
@@ -97,26 +21,54 @@ print("Diccionario ordenado por claves:", diccionario_ordenado)
 #*Búsqueda avanzada:
 #Permite buscar contactos por parte del nombre (por ejemplo, buscar "Ju" para encontrar "Juan").
 
-my_condition = True
 agenda = {
     "nombre":None,
     "apellido":None,
     "ciudad":None,
-    "numero":11111111
+    "numero":None
 }
 
-def is_number_int():
-    if "numero" in agenda:
-        dic_number = agenda["numero"]
-        if dic_number.isdigit() and len(dic_number) <= 11:
-            print("El numero es correcto")
-        else:
-            print("El numero es incorrecto")
+def get_nombre(nombre):
+    nombre = agenda['nombre']
+    return nombre
 
+def get_apellido(apellido):
+    apellido = agenda['apellido']
+    return apellido
 
+def get_ciudad(ciudad):
+    ciudad = agenda['ciudad']
+    return ciudad
 
+def get_numero(numero):
+    numero = agenda['numero']
+    return numero
 
-print("Loop")
+def set_nombre(_nombre):
+    if isinstance(_nombre, str):
+        agenda['nombre'] = _nombre
+    else:
+        print("El nombre debe ser una cadena de texto")
+
+def set_apellido(_apellido):
+    if isinstance(_apellido, str):
+        agenda['apellido'] = _apellido
+    else:
+        print("El apellido debe ser una cadena de texto")
+
+def set_ciudad(_ciudad):
+    if isinstance(_ciudad, str):
+        agenda['apellido'] = _ciudad
+    else:
+        print("El apellido debe ser una cadena de texto")
+
+def set_numero(_numero):
+    if _numero.isdigit() or len(_numero) > 11 :
+        print("Numero de telefono no es valido, debe tener solo digitos y que sean menos de 11")
+    else:
+        agenda['numero'] = _numero
+    print(f"Contacto '{_numero}' agregado correctamente")
+
 
 while True:
     # Mostrar menú
@@ -133,6 +85,11 @@ while True:
         pass
     elif opcion == "2":
         # Insertar contacto
+        add_nombre = input("Ingresa el nombre: ")
+        add_apellido = input("Ingrese el apellido: ")
+        add_cuidad = input("Ingrese la cuidad: ")
+        
+        add_numero = input("Ingrese el numero: ")            
         pass
     elif opcion == "3":
         # Actualizar contacto
@@ -142,6 +99,7 @@ while True:
         pass
     elif opcion == "5":
         # Salir del programa
+        print("Has salido")
         break
     else:
         print("Opción no válida. Inténtalo de nuevo.")
