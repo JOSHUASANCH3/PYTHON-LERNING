@@ -21,55 +21,71 @@
 #*Búsqueda avanzada:
 #Permite buscar contactos por parte del nombre (por ejemplo, buscar "Ju" para encontrar "Juan").
 
-agenda = {
-    "nombre":None,
-    "apellido":None,
-    "ciudad":None,
-    "numero":None
-}
+## Se creara una clase para el control de datos
+class Agenda:
+    #? Se define el contructor de la clase
+    def __init__(self, contactos_iniciales=None):
+        #? Se verifica el diccionario
+        if contactos_iniciales is None:
+            self._contactos = {}  # Diccionario privado para almacenar los contactos
+        else:
+            self._contactos = contactos_iniciales
 
-def get_nombre(nombre):
-    nombre = agenda['nombre']
-    return nombre
+    #?Getter para el diccionario de contactos
+    @property
+    def contactos(self):
+        #? Getter para obtener el diccionario de contactos
+        return self._contactos
 
-def get_apellido(apellido):
-    apellido = agenda['apellido']
-    return apellido
+    #? Setter para el diccionario de contactos
+    @contactos.setter
+    def contactos(self,nuevos_contactos):
+        if isinstance(nuevos_contactos, dict):
+            self._contactos = nuevos_contactos
+        else:
+            raise ValueError("Los contactos deben ser diccionarios")
+        
+    #? Metodo para agregar contactos
+    def agregar_contacto(self,nombre, apellido, email, direccion, telefono):
+        if nombre in self._contactos:
+            print(f"El contacto '{nombre}' ya existe.")
+        elif not telefono.isdigit() or len(telefono) > 11:
+            print("El numero no es valido, tiene que ser menos de 11 caracteres")
+        else:
+            self._contactos[nombre] = {
+                "Nombre": nombre,
+                "Apellido":apellido,
+                "Email":email,
+                "Direccion":direccion,
+                "Teléfono": telefono
+            }
+            print("El contacto se ha agregado correctamente")
 
-def get_ciudad(ciudad):
-    ciudad = agenda['ciudad']
-    return ciudad
+    #? Metodo para actualizar contacto
+    def actualizar_contacto(self, nombre, nuevo_telefono):
+        #? Actualiza el contacto conforme el nombre
+        if nombre in self._contactos:
+            self._contactos[nombre] = nuevo_telefono
+            print(f"Contacto '{nombre}' actualizado correctamente.")
+        else:
+            print(f"El contacto '{nombre}' no existe.")
 
-def get_numero(numero):
-    numero = agenda['numero']
-    return numero
+    #?Una funcion para mostrar los ocntactos
+    def mostrar_contactos(self, nombre):
+        if nombre in self._contactos:
+            print(f"Nombre: {nombre}, Apellido: {self._contactos[nombre]}")
+        else:
+            print(f"El contacto {nombre} no existe en la agenda")
+    
+    #? Método para eliminar un contacto
+    def eliminar_contacto(self, nombre):
+        if nombre in self._contactos:
+            del self._contactos[nombre]
+            print(f"Contacto '{nombre}' eliminado correctamente.")
+        else:
+            print(f"El contacto '{nombre}' no existe.")
 
-def set_nombre(_nombre):
-    if isinstance(_nombre, str):
-        agenda['nombre'] = _nombre
-    else:
-        print("El nombre debe ser una cadena de texto")
-
-def set_apellido(_apellido):
-    if isinstance(_apellido, str):
-        agenda['apellido'] = _apellido
-    else:
-        print("El apellido debe ser una cadena de texto")
-
-def set_ciudad(_ciudad):
-    if isinstance(_ciudad, str):
-        agenda['apellido'] = _ciudad
-    else:
-        print("El apellido debe ser una cadena de texto")
-
-def set_numero(_numero):
-    if _numero.isdigit() or len(_numero) > 11 :
-        print("Numero de telefono no es valido, debe tener solo digitos y que sean menos de 11")
-    else:
-        agenda['numero'] = _numero
-    print(f"Contacto '{_numero}' agregado correctamente")
-
-
+class_agenda = Agenda()
 while True:
     # Mostrar menú
     print("1. Buscar contacto")
@@ -82,20 +98,27 @@ while True:
     
     if opcion == "1":
         # Buscar contacto
+        search_contacto = input("Ingrese el nombre del contacto :")
+        class_agenda.mostrar_contactos(search_contacto)
         pass
     elif opcion == "2":
         # Insertar contacto
         add_nombre = input("Ingresa el nombre: ")
-        add_apellido = input("Ingrese el apellido: ")
-        add_cuidad = input("Ingrese la cuidad: ")
-        
-        add_numero = input("Ingrese el numero: ")            
+        add_apellido = input("Ingrese apellido: ")
+        add_email = input("Ingrese el correo electronico: ")
+        add_direccion = input("Ingrese la dirrecion: ")
+        add_numero = input("Ingrese la numero: ")
+        class_agenda.agregar_contacto(add_nombre, add_apellido, add_email, add_direccion, add_numero)
         pass
     elif opcion == "3":
-        # Actualizar contacto
+        #Actualizar contacto
+        act_contacto = input("Escriba el nombre del contacto a actualizar")
+        class_agenda.actualizar_contacto(act_contacto)
         pass
     elif opcion == "4":
         # Eliminar contacto
+        del_contacto = input("Escriba el nombre del contacto a eliminar")
+        class_agenda.eliminar_contacto(del_contacto)
         pass
     elif opcion == "5":
         # Salir del programa
