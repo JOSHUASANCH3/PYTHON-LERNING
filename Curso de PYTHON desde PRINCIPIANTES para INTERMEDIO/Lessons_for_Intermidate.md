@@ -38,5 +38,5 @@
 |   52   |  [Regular Expressions - Ready 🟢](./18_regular_expressions/18_regular_expressions.md)| [Theory - Ready 🟢]| 53 |
 |   51   |  [File Handling - Ready 🟢](./File_Handling/20_File_Handling.md)| [Theory - Ready 🟢]| 52 |
 |   54   |  [Python Package Manager - Ready 🟢](./python_package_manager/python_package_manager.py)| [Theory- Ready 🟢]| 55 |
-|   56   |  [Intermedie Exercise #1 - Ready 🟢](./retos_intermedio/retos_intermedio1.py)| [ Ready 🟢]| 56 |
+|   00   |  [Intermedie Exercise #1 - Ready 🟢](./retos_intermedio/retos_intermedio1.py)| [ Ready 🟢]| 00 |
 |   00   |  [Intermedie Exercise #2 - InProcess 🟡](./retos_intermedio/retos_intermedio2.py)| [ InProcess 🟡]| 00 |

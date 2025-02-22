@@ -39,3 +39,5 @@
 |   01   |  [Curso de PYTHON desde CERO para PRINCIPIANTES](./Curso%20de%20PYTHON%20desde%20CERO%20para%20PRINCIPIANTES/Lessons_for_Beginners.md)|[14 lessons - Ready 🟢] |  41  |
 |   42   |  [Curso de PYTHON desde PRINCIPIANTES para INTERMEDIO](./Curso%20de%20PYTHON%20desde%20CERO%20para%20INTERMEDIO/Lessons_for_Intermidate.md)|[ 9 lessons - Ready 🟢] |   55   |
 |   00   |  [Curso de PYTHON desde INTERMEDIO para BACKEND](./Curso%20de%20PYTHON%20desde%20CERO%20para%20BACKEND/Lessons_for_BackEnd.md)|[Undefined - 10 lecciones - Planning 🔵] |   00   |
+|   00   |  [Curso de PYTHON desde BACKEND para BuildingApps](./Curso%20de%20PYTHON%20desde%20BACKEND%20para%20BLUIDING-APPS/bluiding_apps.md)|[Planning 🔵] |   00   |
+|   00   |  [Retos de Programacion en PYTHON](./Curso%20de%20PYTHON%20de%20RETOS%20de%20LOGICA%20PROGRAMACION/)|[Planning 🔵] |   00   |

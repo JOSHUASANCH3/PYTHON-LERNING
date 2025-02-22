@@ -85,7 +85,9 @@ class Agenda:
         else:
             print(f"El contacto '{nombre}' no existe.")
 
+#? Establesco una instancia de Agenda para mandar a llamar las funciones de esta misma  
 class_agenda = Agenda()
+
 while True:
     # Mostrar menú
     print("1. Buscar contacto")
