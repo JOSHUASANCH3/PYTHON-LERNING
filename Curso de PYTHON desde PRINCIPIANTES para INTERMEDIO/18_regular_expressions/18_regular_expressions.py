@@ -44,7 +44,7 @@ if not (match == None):
 
 # re.search
 search = re.search("leccion", my_string, re.I)
-if not (match == None):
+if not (search == None):
     print(search)
     ## <re.Match object; span=(11, 18), match='leccion'>
     start, end = search.span()

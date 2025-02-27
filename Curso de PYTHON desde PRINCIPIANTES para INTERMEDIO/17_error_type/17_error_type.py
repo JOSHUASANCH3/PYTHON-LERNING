@@ -36,7 +36,7 @@ print(my_list[False])
 
 # ImportError
 # from math import PI # Descomentar para Error
-print(pi)
+# print(pi)
 
 # ValueError
 # my_int = int("10 Años")
