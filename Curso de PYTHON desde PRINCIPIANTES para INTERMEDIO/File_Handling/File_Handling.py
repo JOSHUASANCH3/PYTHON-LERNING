@@ -2,9 +2,10 @@
 import os
 
 #! .txt File\
-##? w+: Abre el archivo para escritura y lectura, pero borra el contenido existente si ya existe.
-##? r+: Abre para lectura y escritura sin borrar el contenido.
-##? a+: Abre para añadir contenido, pero permite leer también.
+# ? w+: Abre el archivo para escritura y lectura, pero borra el contenido existente si ya existe.
+# ? r+: Abre para lectura y escritura sin borrar el contenido.
+# ? a+: Abre el documento para seguir escribiendo, añadiendo al final del documento si existe.
+# ? x+: Crea un nuevo documento y lo abre para seguir escribiendo.
 file_path_txt = "Curso de PYTHON desde CERO para INTERMEDIO/File_Handling/my_file.txt"
 ## txt_file = open(file_path_txt, "w+")
 ## print(txt_file.read()) ## Lee todo el fichero
@@ -15,23 +16,23 @@ file_path_txt = "Curso de PYTHON desde CERO para INTERMEDIO/File_Handling/my_fil
 ## Vuelve al inicio del archivo para leer
 ## txt_file.seek(0)
 
-##? Se cierra el txt
+# ? Se cierra el txt
 ## txt_file.close()
 
-##? Se va eliominar el fichero
+# ? Se va eliominar el fichero
 ## os.remove(file_path_txt)
 
 if os.path.exists(file_path_txt):
     print(f"El archivo '{file_path_txt}' ya existe. No se sobreescribirá.\n")
 else:
-    ##? with: se usa para manejar el archivo y lo cierra correctamente
+    # ? with: se usa para manejar el archivo y lo cierra correctamente
     with open(file_path_txt, "w+") as txt_file_write:
         txt_file_write.write(
             "Mi nombre es Joshua\nMi apellido es Sanchez\nMi edad es 25 años\nMi ciudad natal es Managua\nMi lengua de programacion preferido es Python\n"
         )
         print(f"Archivo '{file_path_txt}' creado exitosamente.")
 
-#! Se imprime el resultado del archivo para saber si se escriio
+# ? Se imprime el resultado del archivo para saber si se escriio
 with open(file_path_txt, "r+") as txt_file_read:
     for line in txt_file_read.readlines():
         print(line)
@@ -39,7 +40,7 @@ with open(file_path_txt, "r+") as txt_file_read:
 ## Archivos JSON
 import json
 
-##? Colocamos la ruta en una varible
+# ? Colocamos la ruta en una varible
 file_path_json = "Curso de PYTHON desde CERO para INTERMEDIO/File_Handling/my_file.json"
 json_file = open(file_path_json, "w+")  # ? Abrimos el archivo, si no existe lo creamos
 
@@ -51,10 +52,10 @@ json_test = {
     "phrase": "Hello World",
 }
 
-##? json.dump() de Python sirve para convertir objetos de Python en datos JSON.
+# ? json.dump() de Python sirve para convertir objetos de Python en datos JSON.
 json.dump(json_test, json_file, indent=2)
 ## json.dump(json_test, json_file, indent=2) #? Crea otra vez el archivo apartir del ultimo fichero modificado,
-##? pero genera un fallo ya que no genera los corchetes y la coma para que el JSON sea tangible
+# ? pero genera un fallo ya que no genera los corchetes y la coma para que el JSON sea tangible
 
 ## Cerramos el archivo
 json_file.close()
@@ -63,14 +64,14 @@ with open(file_path_json) as my_other_file:
     for line in my_other_file.readlines():
         print(line)
 
-##? Se eliminara el archivo
+# ? Se eliminara el archivo
 ## os.remove(file_path_json)
 
-##? Para saber si hay un fichero y datos o crearlos
+# ? Para saber si hay un fichero y datos o crearlos
 if os.path.exists(file_path_json):
     print(f"El archivo '{file_path_json}' ya existe. No se sobreescribirá.\n")
 else:
-    ##? with: se usa para manejar el archivo y lo cierra correctamente
+    # ? with: se usa para manejar el archivo y lo cierra correctamente
     with open(file_path_json, "w+") as json_file_write:
         json.dump(json_test, json_file_write, indent=2)
         print(f"Archivo '{file_path_json}' creado exitosamente.")
