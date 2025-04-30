@@ -1,0 +1,6 @@
+Fecha,Producto,Monto
+2024-04-01,Producto A,250.50
+2024-04-01,Producto B,180.75
+2024-04-02,Producto A,300.00
+2024-04-03,Producto C,120.00
+2024-04-03,Producto B,200.25

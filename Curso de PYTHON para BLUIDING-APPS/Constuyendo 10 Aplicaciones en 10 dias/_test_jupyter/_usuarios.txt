@@ -1,0 +1,6 @@
+ID,Nombre,Edad,Pais
+101,Juan Perez,29,Mexico
+102,Ana Gómez,34,Argentina
+103,Luis Martínez,40,España
+104,María López,27,Chile
+105,Carlos Rodríguez,45,Peru

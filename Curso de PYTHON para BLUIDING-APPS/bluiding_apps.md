@@ -31,5 +31,4 @@
 # <h3>JOSHUASANCH3/PYTHON desde CERO hasta FuLL BACKEND </h3>
 |# Dia   | Temas                                                    | Contenido                                                |    vMeta    |
 |:------:|:---------------------------------------------------------|---------------------------------------------------------:|:-----------:|
-|   01   | [Construyendo 10 Aplicaciones en PYTHON]  |  |   00   |
-|   42   |  |  |   00   |
+|   01   | [Construyendo 10 Aplicaciones en PYTHON]  | Task - InProcess 🟡  |   00   |

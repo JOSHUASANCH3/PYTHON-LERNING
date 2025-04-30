@@ -2,7 +2,7 @@
 # ? Importamos la libreria de expresiones regulares
 import re
 
-# ? Se crea una variable para obtener los datos
+# ? Se crea una variable para almancenar los datos
 say_someting = None
 
 
@@ -48,11 +48,11 @@ my_list = []
 
 
 def save_sentence(save_list):
-    my_list = []
-    my_list.append(save_list)
+    save_sentence_list = []
+    save_sentence_list.append(save_list)
 
 
-# ?Se crea un loop para mantener la secuencia del programa
+# ? Se crea un loop para mantener la secuencia del programa
 while True:
     say_someting = input("Say something: ")
     # Primera verificacion que 'Say Something' es /end

@@ -1,0 +1,47 @@
+[
+    {
+      "ID": 1,
+      "Fecha": "2025-04-04 08:00",
+      "Ubicacion": "Laboratorio",
+      "Temperatura": 23.5,
+      "Humedad": 60,
+      "Presion": 1012.3,
+      "SensorActivo": true
+    },
+    {
+      "ID": 2,
+      "Fecha": "2025-04-04 08:15",
+      "Ubicacion": "Oficina",
+      "Temperatura": 22.8,
+      "Humedad": 58,
+      "Presion": 1011.9,
+      "SensorActivo": true
+    },
+    {
+      "ID": 3,
+      "Fecha": "2025-04-04 08:30",
+      "Ubicacion": "Pasillo",
+      "Temperatura": 24.0,
+      "Humedad": 62,
+      "Presion": 1013.0,
+      "SensorActivo": true
+    },
+    {
+      "ID": 4,
+      "Fecha": "2025-04-04 08:45",
+      "Ubicacion": "Laboratorio",
+      "Temperatura": 21.5,
+      "Humedad": 55,
+      "Presion": 1012.0,
+      "SensorActivo": false
+    },
+    {
+      "ID": 5,
+      "Fecha": "2025-04-04 09:00",
+      "Ubicacion": "Oficina",
+      "Temperatura": 25.3,
+      "Humedad": 65,
+      "Presion": 1013.4,
+      "SensorActivo": true
+    }
+]

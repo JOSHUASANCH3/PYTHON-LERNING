@@ -1,0 +1,11 @@
+Nombre,Número,Ubicación,Estado,Elevacion,Tipo,Última erupción,Latitud,Longitud
+Mauna Loa,1,Hawái,Hawái,4169,Estratovolcán,2022,19.475,-155.608
+Kīlauea,2,Hawái,Hawái,1247,Escudo,2023,19.421,-155.287
+Mount St. Helens,3,Condado de Skamania,Washington,2549,Estratovolcán,2008,46.1912,-122.1944
+Mount Rainier,4,Condado de Pierce,Washington,4392,Estratovolcán,1894,46.8523,-121.7603
+Mount Shasta,5,Condado de Siskiyou,California,4317,Estratovolcán,1786,41.4091,-122.1946
+Mount Hood,6,Condado de Clackamas,Oregón,3426,Estratovolcán,1866,45.3735,-121.6959
+Mount Baker,7,Condado de Whatcom,Washington,3286,Estratovolcán,1880,48.7773,-121.8132
+Yellowstone Caldera,8,Parque Nacional Yellowstone,Wyoming,2805,Caldera,70000 a.C.,44.4279,-110.5885
+Lassen Peak,9,Condado de Shasta,California,3189,Estratovolcán,1917,40.4881,-121.5046
+Long Valley Caldera,10,Condado de Mono,California,3390,Caldera,1350 d.C.,37.7000,-118.8700

@@ -1,0 +1,3 @@
+El análisis de datos es fundamental en la ciencia moderna.
+Los datos permiten extraer información valiosa y tomar decisiones informadas.
+El aprendizaje automático y la inteligencia artificial dependen de grandes volúmenes de datos.
