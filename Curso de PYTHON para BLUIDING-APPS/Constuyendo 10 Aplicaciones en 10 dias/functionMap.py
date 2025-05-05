@@ -42,6 +42,7 @@ for lt, ln, el, name in zip(lat, lon, elev, name):
 
 # other function
 fgp = folium.FeatureGroup(name="Population")
+
 fgp.add_child(
     folium.GeoJson(
         data=open("World.json", "r+", encoding="utf-8-sig"),
